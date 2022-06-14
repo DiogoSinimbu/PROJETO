@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+main{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    max-width: 95%;
+    margin: auto;
+
+}
+
+
+
+:root{
+    --marrom-escuro: #b36b0d;
+    --marrom-medio: #ffa126;
+    --marrom-claro: #ffac40;
+    --azul-medio: #0073b3;
+    --azul-claro: #26b2ff;
+
+
+    --fonte-cabeca: 'Times New Roman', Times, Georgia, serif;
+    --fonte-paragrafo: Arial, Helvetica, sans-serif;
+    --fonte-destaque: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cabecalho{
+    background-color: black;
+    color: var(--marrom-escuro);
+    font-size: 2rem;
+    text-align: center;
+}
+
+.caixa-de-destaque{
+    display: block;
+    max-width: 200px;
+    max-height: 400px;
+    border: 5px;
+    margin: 3px;
+    outline: 3px;
+    padding: 3px;
+}
+
+.caixa-de-destaque:hover{
+    background-color: var(--marrom-medio);
+    color: black;
+}
+
+.caixa-de-navegacao:hover{
+    text-decoration: none;
+    background-color: var(--marrom-claro);
+    color: var(--azul-medio);
+    
+
+}
+
+.caixa-de-navegacao>nav>a{
+    text-decoration: none;
+}
