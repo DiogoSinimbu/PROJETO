@@ -5,50 +5,52 @@
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>AJEMPI</title>
-            <link rel="stylesheet" href="css/style-desktop.css">
+            <link rel="stylesheet" href="css/style-classes.css">
+            <link rel="stylesheet" href="css/style-ids.css">
+            <link rel="stylesheet" href="css/style-base.css">
             <link rel="stylesheet" href="css/style-mobile.css">
         </head>
 
         <body>
             <main>
             <header>
-                <h1 class="cabecalho" id="ajempi1">AJEMPI</h1>
-                <h1 class="cabecalho" id="ajempi2">ASSESSORIA JURÍDICA ESPECIALIZADA AOS MILITARES DO PIAUÍ</h1>
+                <h1 class="cabecalho-maior increase-elemente" id="ajempi1">AJEMPI</h1>
+                <h2 class="cabecalho-menor hidden-element" id="ajempi2">ASSESSORIA JURÍDICA ESPECIALIZADA AOS MILITARES DO PIAUÍ</h2>
             </header>
 
             <nav>
-                <a href="esqueleto.html" target="_self" class="caixa-de-navegacao">HOME.</a>
-                <a href="pg003.html"  target="_self" rel="next" class="caixa-de-navegacao">CONTATO.</a>
-                <a href="pg004.html"  target="_self" rel="next" class="caixa-de-navegacao">EQUIPE.</a>
+                <a href="esqueleto.html" target="_self" class="caixa-de-navegacao">HOME</a>
+                <a href="pg003.html"  target="_self" rel="next" class="caixa-de-navegacao">CONTATO</a>
+                <a href="pg004.html"  target="_self" rel="next" class="caixa-de-navegacao">EQUIPE</a>
             </nav>
 
                 
                 <section>
-                    <h2 class="cabecalho">ÁREA DE ATUAÇÃO</h2>
+                    <h2 class="cabecalho-maior">ÁREA DE ATUAÇÃO</h2>
                                 <ul>
                                     <li class="caixa-de-destaque">
-                                        <span>Militar.</span>
+                                        <span>Militar</span>
                                     </li>
                                     <li class="caixa-de-destaque">
-                                        <span>Cível.</span>
+                                        <span>Cível</span>
                                     </li>
                                     <li class="caixa-de-destaque">
-                                        <span>Penal.</span>
+                                        <span>Penal</span>
                                     </li>
                                     <li class="caixa-de-destaque">
-                                        <span>Consumidor.</span>
+                                        <span>Consumidor</span>
                                     </li>
                                     <li class="caixa-de-destaque">
-                                        <span>Trabalhista.</span>
+                                        <span>Trabalhista</span>
                                     </li>
                                 </ul>
                                 <p class="caixa-larga">DEMANDAS COMUNS:</p>
                     </section>
                 
                     <section>
-                        <h2 class="cabecalho">PRECISA DE AJUDA EM SUA DEMANDA?</h2>
+                        <h2 class="cabecalho-maior">PRECISA DE AJUDA EM SUA DEMANDA?</h2>
                         <p class="topico">Faça seu cadastro e entraremos em contato.</p>
-                            <ul>
+                            <ul id="cadastro">
                                 <li>Nome:</li>
                                 <li>E-mail:</li>
                                 <li>Telefone:</li>
@@ -57,62 +59,60 @@
                     </section>
 
                     <section>
-                        <h3 class="cabecalho">Quem somo?</h3>
+                        <h3 class="cabecalho-maior">Quem somo?</h3>
                             <a href="" class="topico">Equipe:</a>
                                     <ul>
-                                        <li class="caixa-de-destaque"><a href="">Rodri Martins</a></li>
-                                        <li class="caixa-de-destaque"><a href="">Layza Maciel</a></li>
-                                        <li class="caixa-de-destaque"><a href="">Kelma Marx</a></li>
+                                        <li id="rodrigo-martins" class="caixa-de-apresentacao"><a href="">Rodri Martins</a></li>
+                                        <li id="layza-maciel" class="caixa-de-apresentacao"><a href="">Layza Maciel</a></li>
+                                        <li id="kellma-marx" class="caixa-de-apresentacao"><a href="">Kelma Marx</a></li>
                                     </ul>
                             <p class="topico">História:</p>
                             <p>Atuando especialente na área militar....</p>
                     </section>
                 
                     <section>
-                        <h4 class="cabecalho">Opinião de clientes:</h4>
+                        <h4 class="cabecalho-maior">Opinião de clientes:</h4>
                                 <p>
                                     <ul>
-                                        <li class="caixa-de-destaque"><span>Cliente 1</span></li>
-                                        <li class="caixa-de-destaque"><span>Cliente 2</span></li>
-                                        <li class="caixa-de-destaque"><span>Cliente 3</span></li>
-                                        <li class="caixa-de-destaque"><span>Cliente 4</span></li>
+                                        <li id="cliente01" class="caixa-de-destaque"><span>Cliente 1</span></li>
+                                        <li id="cliente02" class="caixa-de-destaque"><span>Cliente 2</span></li>
+                                        <li id="cliente03" class="caixa-de-destaque"><span>Cliente 3</span></li>
+                                        <li id="cliente04" class="caixa-de-destaque"><span>Cliente 4</span></li>
                                     </ul>
                                 </p>
                     </section>
 
                     <section>
-                        <h5 class="cabecalho">Notícias</h5>
+                        <h5 class="cabecalho-maior">Notícias</h5>
                             <p>
                                 <ul>
-                                    <li class="caixa-de-destaque">Notícia Federal.</li>
-                                    <li class="caixa-de-destaque">Notícia Estadual.</li>
-                                    <li class="caixa-de-destaque">Notícia da empresa.</li>
+                                    <li id="noticia-federal" class="noticia">Notícia Federal.</li>
+                                    <li id="noticia-estadual" class="noticia">Notícia Estadual.</li>
+                                    <li id="noticia-institucional" class="noticia">Notícia da empresa.</li>
                                 </ul>
                             </p>
                     </section>
                                     <hr>
                                     
-                                    <footer>
-                                        <h6 class="cabecalho">MAPA DO SITE <br> </h6>
-                                        
-                                        <section>
-                                            
-                                            <span>pg2. <a href="pg002.html" target="_self" rel="next"><span class="mapa-do-site">ÁREA DE ATUAÇÃO <br> DEMANDAS MAIS RECORRENTES</span></a><br><br>
-                            
-                                    <span>pg3. <a href="pg003.html" target="_self" rel="next"><span class="mapa-do-site">CADASTRO DE CLIENTE <br> CONTATO VIRTUAL E PRESENCIAL</span></a><br><br>
-                            
-                                    <span>pg4.<a href="pg004.html" target="_self" rel="next"><span class="mapa-do-site">EQUIPE <br> HISTÓRIA <br> OPINIÃO DE CLENTES</span></a><br><br>
-                            
-                                    <span>pg5. <a href="pg005.html" target="_self" rel="next"><span class="mapa-do-site">NOTÍCIAS</span></a><br><br>
-                            
-                        </section>
+                    <footer>
+                        <h6 class="cabecalho-maior">MAPA DO SITE <br> </h6>
+                        
+                        <section>
+                                <ul id="mapa">
+                                    <li>pg2. <a href="#" target="_self" rel="next">ÁREA DE ATUAÇÃO / DEMANDAS MAIS RECORRENTES</a></li>
+                                    <li>pg3. <a href="#" target="_self" rel="next">CADASTRO DE CLIENTE  / CONTATO VIRTUAL E PRESENCIAL</a></li>
+                                    <li>pg4. <a href="#" target="_self" rel="next">EQUIPE / HISTÓRIA / OPINIÃO DE CLENTES</a></li>
+                                    <li>pg5. <a href="#" target="_self" rel="next">NOTÍCIAS</a></li>
+                                </ul>
+                
+                            </section>
 
                         <section>
                             <hr>
                             </span>
-                            ESCRITÓRIO:<address><a href="https://www.google.com.br/maps/place/AJEMPI/@-5.0931874,-42.7965046,17z/data=!4m7!3m6!1s0x78e3759ede0ad47:0x6e8c7864fe192419!8m2!3d-5.0931874!4d-42.7965046!9m1!1b1" target="_blank" rel="external">Rua Goiás, N° 970 - Ilhotas, Teresina - PI.</a></address>
+                            ENDEREÇO:<address><a id="endereco" href="https://www.google.com.br/maps/place/AJEMPI/@-5.0931874,-42.7965046,17z/data=!4m7!3m6!1s0x78e3759ede0ad47:0x6e8c7864fe192419!8m2!3d-5.0931874!4d-42.7965046!9m1!1b1" target="_blank" rel="external">Rua Goiás, N° 970 - Ilhotas, Teresina - PI.</a></address>
                             <hr>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3974.0650338259807!2d-42.796504599999984!3d-5.093187399999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x78e3759ede0ad47%3A0x6e8c7864fe192419!2sAJEMPI!5e0!3m2!1spt-BR!2sbr!4v1653934275202!5m2!1spt-BR!2sbr" width="350" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3974.0650338259807!2d-42.796504599999984!3d-5.093187399999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x78e3759ede0ad47%3A0x6e8c7864fe192419!2sAJEMPI!5e0!3m2!1spt-BR!2sbr!4v1653934275202!5m2!1spt-BR!2sbr" width="350" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </section>
                     </footer>
                     

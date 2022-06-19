@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+:root{
+    --marrom-escuro: #b36b0d;
+    --marrom-medio: #ffa126;
+    --marrom-claro: #ffac40;
+    --azul-medio: #0073b3;
+    --azul-claro: #26b2ff;
+
+
+    --fonte-cabeca: 'Times New Roman', Times, Georgia, serif;
+    --fonte-paragrafo: Arial, Helvetica, sans-serif;
+    --fonte-destaque: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#ajempi1{
+   
+    padding-bottom: 0px;
+    border-bottom: 0;
+    margin-bottom: 1px
+
+
+}
+
+
+#ajempi2{
+    padding-top: 0;
+    border-top: 0;
+    margin-top: 0;
+}
+
+#cadastro{
+    list-style: none;
+}
+
+
+#rodrigo-martins{
+
+
+    background-image: url(../midia/rodrigo.jpg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+
+
+#layza-maciel{
+
+
+    background-image: url(../midia/layza.jpg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+
+
+#kellma-marx{
+
+
+    background-image: url(../midia/kellma.jpg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+
+
+#cliente01{
+
+
+    background-image: url(../midia/imagem-base3.png);
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+
+
+#cliente02{
+
+
+    background-image: url(../midia/imagem-base3.png);
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+
+
+#cliente03{
+
+
+    background-image: url(../midia/imagem-base3.png);
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+
+
+#cliente04{
+
+
+    background-image: url(../midia/imagem-base3.png);
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+
+#noticia-federal{
+    
+}
+
+#noticia-estadual{
+
+}
+
+#noticia-institucional{
+    
+}
+
+#endereco{
+    color: var(--azul-medio);
+    font-style: normal;
+    text-decoration: none;
+}
+
+#mapa{
+    list-style: none;
+
+    position: sticky;
+    left: 60%;
+    text-align: right;
+
+    margin: 2px;
+    padding: 6px;
+    border: 4px;
+    
+    
+    text-decoration: none;
+}
